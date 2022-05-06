@@ -1,0 +1,52 @@
+/*body comporte la font family Raleway, une margin de 0px et un background color gris foncé*/
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-color: rgb(54, 54, 54);
+}
+/*header comporte une margin top pour alligner le haut, background color gris claire et une hauteur de 100*/
+header {
+    margin-top: -21px;
+    background-color: lightgrey;
+    height: 100px;
+}
+/*le h1 dans la classe head a un padding top de 10px*/
+.head h1 {
+    padding-top: 20px;
+}
+/*espacement entre chaque titre du menu*/
+.head li {
+    display: inline;
+    padding-left: 80px;
+    font-weight: 900;
+}
+
+.lastli {
+    padding-right: 20px;
+}
+
+.head ul {
+    display: flex;
+    justify-content: end;
+    margin-top: -45px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: lightgrey;
+    height: 50px;
+}
+
+.foot {
+    width: 3em;
+}
+
+#f1 {
+    padding-left: 20px;
+}
+
+#f3 {
+    padding-right: 20px;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width"/>
     <title>Lost.in.fog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,22 +16,31 @@
         <div class="head">
         <h1>Lost.in.fog</h1>
         <ul>
-            <li>Home</li>
-            <li>Actualités</li>
-            <li>Musiques</li>
-            <li>Photos / Vidéos</li>
-            <li>Avis</li>
-            <li class="lastli">Contact</li>
+            <li><a href="#" class="active">Home</a></li>
+            <div id="page">
+            <li><a href="actu.html">Actualités</a></li>
+            <li><a href="musique.html">Musiques</a></li>
+            <li><a href="photos.html">Photos / Vidéos</a></li>
+            <li><a href="avis.html">Avis</a></li>
+            <li class="lastli"><a href="contact.html">Contact</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
         </ul>
         </div>
     </header>
     
-
+    <div>
+        <nav>
+            <p>Hello </p>
+        </nav>
+    </div>
 
     <footer>
-        <img src="img/insta.png" alt="lien instagram" class="foot" id="f1">
-        <img src="img/git.png" alt="lien github" class="foot">
-        <img src="img/youtube.png" alt="lien youtube" class="foot" id="f3">
+         <a href=""><img src="img/insta.png" alt="lien instagram" class="foot" id="f1"></a>
+         <a href=""><img src="img/git.png" alt="lien github" class="foot"></a>
+         <a href=""><img src="img/youtube.png" alt="lien youtube" class="foot" id="f3"></a>
     </footer>
     <script src="js/script.js"></script>
 </body>

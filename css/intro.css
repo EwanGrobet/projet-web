@@ -1,0 +1,21 @@
+.ml3 {
+    font-weight: 400;
+    font-size: 3.5em;
+  }
+
+  h1{
+      padding-top: 20%;
+      color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  p {
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+  }

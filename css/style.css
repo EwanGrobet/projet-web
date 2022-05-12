@@ -62,7 +62,7 @@ footer {
     padding-right: 20px;
 }
 
-
+/*pour le smartphone*/
 @media screen and (max-width: 1000px){
 
 .head h1 {
@@ -78,7 +78,7 @@ footer {
 }
 
 .head li{
-    display: inline;
+    display: block;
     padding-left: 0px;
     font-weight: 900;
 }
@@ -96,7 +96,7 @@ footer {
   }
 
 .head a.icon {
-    background: black;
+    background-color:rgb(54, 54, 54);
     display: block;
     position: absolute;
     right: 0;
@@ -104,13 +104,13 @@ footer {
   }
 
 .head a:hover {
-    background-color: #ddd;
+    background-color: lightgrey;
     color: black;
   }
   
 .active {
     background-color:rgb(54, 54, 54);
-    color: white;
+    color: lightgrey;
   }  
 
 

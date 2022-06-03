@@ -68,6 +68,13 @@ p {
     margin-right: 100px;
 }
 
+#description2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .bienvenue {
     margin-bottom: -5px;
 }
@@ -94,9 +101,10 @@ footer {
 }
 
 .imgAcceuil {
-    display: flex;
-    align-items: stretch;
-    width: 30%;
+    width: 150%;
+    height: 150%;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 /*pour le smartphone*/

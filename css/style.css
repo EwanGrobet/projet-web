@@ -60,8 +60,7 @@ p {
 #description {
     color: antiquewhite;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -94,6 +93,9 @@ p {
 
 
 .bienvenue {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
     margin-top: 30px;
     margin-bottom: 0px;
 }
@@ -120,10 +122,11 @@ footer {
 }
 
 .imgAcceuil {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     padding-left: 10px;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .photoEx {
@@ -139,11 +142,46 @@ footer {
     opacity 3s ease-in-out;
 }
 
+.photoEx2 {
+    display: flex;
+    justify-content: space-between;
+    animation-duration: 5s;
+    animation-name: bottom;
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: translateY(10%);
+    opacity: 0;
+    transition: transform 3s ease-in-out,
+    opacity 3s ease-in-out;
+}
+
+.musique {
+    display: flex;
+    justify-content: space-between;
+    animation-duration: 5s;
+    animation-name: bottom;
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: translateY(30%);
+    opacity: 0;
+    transition: transform 3s ease-in-out,
+    opacity 3s ease-in-out;
+}
+
 .photoEx.active {
     transform: translateY(0%);
     opacity: 1;
 }
 
+.photoEx2.active {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.musique.active {
+    transform: translateY(0%);
+    opacity: 1;
+}
 
 .photoSlide {
     display: flex;
@@ -155,7 +193,6 @@ footer {
 @media screen and (max-width: 1070px){
 
 .head h1 {
-    padding-top: 25px;
     width: 1em;
 }
 
@@ -201,7 +238,11 @@ footer {
 .active {
     background-color:rgb(54, 54, 54);
     color: lightgrey;
-  }  
+  }
+  
+.bienvenue {
+    margin-top: 60px;
+}
 
 
 }

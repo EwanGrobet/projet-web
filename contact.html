@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lost.in.fog</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
@@ -24,10 +24,34 @@
             <li class="lastli"><a href="contact.html">Contact</a></li>
             <a href="javascript:void(0);" class="icon" onclick="menu()">
                 <i class="fa fa-bars"></i>
+            </a>
         </ul>
         </div>
     </header>
-    
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ton prénom.../Your name..">
+      
+          <label for="lname">Nom</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ton Nom.../Your last name..">
+      
+          <label for="country">Type de sujet</label>
+          <select id="country" name="country">
+            <option value="australia">Musiques</option>
+            <option value="canada">Art</option>
+            <option value="usa">Collaboration</option>
+            <option value="usa">Autres</option>
+          </select>
+      
+          <label for="subject">Sujet</label>
+          <textarea id="subject" name="subject" placeholder="Écrivez quelque chose.../Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div> 
 
 
     <footer>

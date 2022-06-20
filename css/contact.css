@@ -97,6 +97,22 @@ p {
     color: #e6dbe2ff;
   }
 
+  #question {
+    color: #e6dbe2ff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .plusInfos {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;

@@ -62,6 +62,36 @@ p {
     font-size: 1.3em;
 }
 
+h2{
+    color: #e6dbe2ff;
+}
+
+#description2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#actu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ignotus {
+    width: 60%;
+    height: 60%;
+    padding-left: 10px;
+    padding-top: 90px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.separate{
+    background-color: #d8d8f6ff;
+}
+
 footer {
     display: flex;
     justify-content: space-between;

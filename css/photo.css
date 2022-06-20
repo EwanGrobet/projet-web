@@ -65,8 +65,11 @@ p {
 }
 
 #firstRow {
+    margin-left: 20px;
+    margin-right: 20px;
     display:flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .photosColumnOne {
@@ -76,8 +79,11 @@ p {
 }
 
 #secondRow {
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .textRowOne {
@@ -115,12 +121,6 @@ footer {
     .head h1 {
         width: 1em;
     }
-      
-    .bienvenue {
-        font-size: 1.2em;
-        margin-left: 0px;
-        margin-top: 60px;
-    }
 
     .menu{
         display: none;
@@ -134,6 +134,28 @@ footer {
         margin-left: 80%;
         justify-content: flex-end;
         width: 60px;
+    }
+
+    #firstRow {
+        margin-left: 20px;
+        margin-right: 20px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .photosColumnOne {
+        width: 90%;
+        height: 90%;
+        padding: 20px;
+    }
+    
+    #secondRow {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     
     

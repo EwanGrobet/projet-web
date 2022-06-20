@@ -54,6 +54,9 @@ a:hover {
 .lien {
     color: #f0c97fff;
 }
+.separate{
+    background-color: #d8d8f6ff;
+}
 
 p {
     color: #e6dbe2ff;
@@ -66,14 +69,43 @@ ul {
     color: #e6dbe2ff;
 }
 
+.liminal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+audio {
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
 h2 {
     color:#e6dbe2ff;
 }
 
 .projetlost {
+    font-size: 1em;
     color: #e6dbe2ff;
     display: flex;
     justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#lostinfog {
+    display: flex;
+    justify-content: center;
+
+}
+
+#projet2 {
+    text-align: center;
+    color: #e6dbe2ff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -123,6 +155,24 @@ footer {
         justify-content: flex-end;
         width: 60px;
     }
+
+    .projetlost {
+        font-size: 0.8em;
+        color: #e6dbe2ff;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #lostinfog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    
     
     
     }

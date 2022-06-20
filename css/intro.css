@@ -4,6 +4,7 @@ body{
 }
 
 .ml3 {
+  margin-top: auto;
     font-weight: 400;
     font-size: 3.5em;
   }
@@ -33,3 +34,13 @@ body{
   a:hover {
     color: black;
   }
+  /*pour le smartphone*/
+@media screen and (max-width: 1070px){
+
+  .ml3 {
+    margin-top: 40%;
+    font-weight: 400;
+    font-size: 1.3em;
+  }
+
+}

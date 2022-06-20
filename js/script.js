@@ -1,3 +1,4 @@
+console.log("Coucou")
 // slide des photos d'exemples
 const photoEx = document.querySelector('.photoEx');
 
@@ -37,3 +38,12 @@ window.addEventListener('scroll', () => {
         musique.classList.add('active')
     }
 })
+
+function menu() {
+    var x = document.getElementById("page");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }

@@ -1,24 +1,27 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-    background-color: rgb(54, 54, 54);
+    background-color: #161512ff;
 }
 
 header {
     margin-top: -21px;
-    background-color: lightgrey;
+    background-color: #270722ff;
     height: 100px;
 }
 
 .head h1 {
+    color: #d8d8f6ff;
     padding-top: 25px;
     padding-left: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
 /*espacement entre chaque titre du menu*/
+
 .head li {
-    display: inline;
+    color: #d8d8f6ff;
+    display: inline-flex;
     padding-left: 80px;
 }
 
@@ -37,22 +40,42 @@ li{
     margin-top: -35px;
 }
 
-.head a {
-    color: black;
+a {
+    color: #d8d8f6ff;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
 }
 
 a:hover {
-    color: antiquewhite;
+    color: #e6dbe2ff;
+}
+
+.lien {
+    color: #f0c97fff;
 }
 
 p {
-    color: antiquewhite;
+    color: #e6dbe2ff;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1.3em;
+}
+
+ul {
+    color: #e6dbe2ff;
+}
+
+h2 {
+    color:#e6dbe2ff;
+}
+
+.projetlost {
+    color: #e6dbe2ff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 footer {
@@ -60,7 +83,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    background-color: lightgrey;
+    background-color: #d8d8f6ff;
     height: 70px;
 }
 
@@ -76,59 +99,29 @@ footer {
     padding-right: 20px;
 }
 
+.hamb {
+    display: none;
+}
+
 /*pour le smartphone*/
 @media screen and (max-width: 1070px){
 
     .head h1 {
         width: 1em;
     }
-    
-    .head {
-        overflow: hidden;
-        background-color: lightgrey;
-        position: relative;
-        padding-right: 20px;;
-    
-    }
-    
-    .head li{
-        display: block;
-        padding-left: 0px;
-        font-weight: 900;
-    }
-    
-    .head #page {
+
+    .menu{
         display: none;
-      }
+       }
     
-    .head a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-    
-    .head a.icon {
-        background-color:rgb(54, 54, 54);
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-    
-    .head a:hover {
-        background-color: lightgrey;
-        color: black;
-      }
-      
-    .active {
-        background-color:rgb(54, 54, 54);
-        color: lightgrey;
-      }
-      
-    .bienvenue {
-        margin-top: 60px;
+    .hamb {
+        background-color:#f0c97fff;
+        display: flex;
+        justify-content: center;
+        margin-top: -60px;
+        margin-left: 80%;
+        justify-content: flex-end;
+        width: 60px;
     }
     
     

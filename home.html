@@ -9,24 +9,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="head">
         <h1>Lost.in.fog</h1>
+        <a href="links.html"><img src="img/hamb.png" alt="hamburger" class="hamb"></a>
+        <div class="menu">
         <ul>
             <li><a href="#" class="active">Home</a></li>
-            <div id="page">
             <li><a href="actu.html">Actualités</a></li>
             <li><a href="musique.html">Musiques</a></li>
             <li><a href="photos.html">Photos / Vidéos</a></li>
             <li><a href="avis.html">Avis</a></li>
             <li class="lastli"><a href="contact.html">Contact</a></li>
-            <a href="javascript:void(0);" class="icon" onclick="menu()">
-                <i class="fa_fa-bars"></i>
-            </a>
             </div>
         </ul>
         </div>
@@ -46,8 +43,10 @@
                 <em>Lost.in.fog</em></p>
                 <img src="img/logo.jpg" alt="logo" class="imgAcceuil">
         </nav>
-        <nav id="description2">
-            <h2>Dernière actualités en date !</h2><br>
+        <div class="separate"><p>.</p></div>
+        <nav id="actu">
+            <div id="description2">
+            <h2>Dernière actualités en date !</h2>
             <p><em><b>Ignotus dissendium</b></em>: <br><br> <b>Le premier EP avance !</b> <br> Bonjour à vous ! <br><br>
 
                 D’ici deux ou trois mois, le projet « Ignotus Dissendium » sortira son premier EP de trois titres ! Ce seront 17 minutes sortant du fond de nos tripes et du local du « Buisson Hardent » qui vous seront proposé.<br><br>
@@ -59,11 +58,13 @@
                 À très vite ! <br><br>
                 
                 <em><b>Ignotus Dissendium</b></em></p>
-                <img src="img/tristan_v8.jpg" alt="Ignotus_Disendium">
+            </div>
+                <img src="img/tristan_v8.jpg" alt="Ignotus_Disendium" class="ignotus">
         </nav>
+        <div class="separate"><p>.</p></div>
         <nav id="description3" class="photoEx">
             <h2>Photos / Vidéos - Design</h2>
-            <p>Cela fait maintenant 2 ans que je paratique la photos et la retouche photos afin de mettre mes idées musicales et artistiques en oeuvres. <br><br> Voici quelque exemple tiré de mes dernières sessions orienté sur une ambience "Liminal" avec cette aspect de solitude qui revient beaucoup. <br><br> pour en savoir plus sur cette histoire, <a href="photos.html">c'est ici !</a></p>
+            <p>Cela fait maintenant 2 ans que je pratique la photos et la retouche photos afin de mettre mes idées musicales et artistiques en oeuvres. <br><br> Voici quelque exemple tiré de mes dernières sessions orienté sur une ambience "Liminal" avec cette aspect de solitude presque omniprésente. <br><br> pour en savoir plus sur cette histoire, <a href="photos.html" class="lien">c'est ici !</a></p>
         </nav>
         <nav class="photo">
             <div class="photoEx2">
@@ -73,18 +74,19 @@
                 <img src="img/ch_29.jpg" alt="" class="photoSlide">
             </div>
         </nav>
+        <div class="separate"><p>.</p></div>
         <nav class="musique" id="musique">
             <h2>Musiques</h2>
             <p>La musique à toujours été pour moi une grande source de calme et d'inspiration, c'est donc tout naturellement, vers l'âge de 17ans, que je me suis aussi mis à vouloir la pratiquer. Ce morceau si est le plus complet que j'ai pu crée avec écriture des paroles à lacomposition de la musique bien qu'il ne soit pas encore tout à fait finit mais, voici un extrait de ce que je propose <br><br>
-            Une page complète est dédiée à mes compositions, <a href="musique.html">c'est ici !</a></p>
+            Une page complète est dédiée à mes compositions, <a href="musique.html" class="lien">c'est ici !</a></p>
             <audio controls preload="auto" src="musique/capo1.wav"> Votre navigateur ne supporte pas la balise audio . </audio>
         </nav>
     </div>
 
     <footer>
-         <a href=""><img src="img/insta.png" alt="lien instagram" class="foot" id="f1"></a>
-         <a href=""><img src="img/git.png" alt="lien github" class="foot"></a>
-         <a href=""><img src="img/youtube.png" alt="lien youtube" class="foot" id="f3"></a>
+         <a href="https://www.instagram.com/lost._in._fog/?hl=fr"><img src="img/insta.png" alt="lien instagram" class="foot" id="f1"></a>
+         <a href="https://github.com/EwanGrobet"><img src="img/git.png" alt="lien github" class="foot"></a>
+         <a href="https://www.youtube.com/c/LostInFog"><img src="img/youtube.png" alt="lien youtube" class="foot" id="f3"></a>
     </footer>
     <script src="js/script.js"></script>
 </body>

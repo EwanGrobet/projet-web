@@ -88,7 +88,7 @@ p {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 200px;
     margin-right: 100px;
 }
@@ -133,7 +133,7 @@ footer {
     }
 
     .hamb {
-        background-color: #d8d8f6ff;
+        background-color: #f0c97fff;
         display: flex;
         justify-content: center;
         margin-top: -60px;

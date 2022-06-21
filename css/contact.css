@@ -17,6 +17,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
+
 /*espacement entre chaque titre du menu*/
 
 .head li {
@@ -25,7 +26,7 @@ header {
     padding-left: 80px;
 }
 
-li{
+li {
     display: flex;
     justify-content: center;
 }
@@ -62,69 +63,87 @@ p {
     font-size: 1.3em;
 }
 
- /* Style inputs with type="text", select elements and textareas */
- input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #e6dbe2ff;
     color: rgb(0, 0, 0);
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-  }
+}
 
-   /* Style inputs with type="text", select elements and textareas */
- input[type=email], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+/* Style inputs with type="text", select elements and textareas */
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #161512ff;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* Add a background color and some padding around the form */
+.container {
     background-color: #161512ff;
     padding: 20px;
-  } 
+}
 
-  label{
+label {
     color: #e6dbe2ff;
-  }
+}
 
-  #question {
+#question {
     color: #e6dbe2ff;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
 
-  .plusInfos {
+.plusInfos {
     display: flex;
     justify-content: center;
     text-align: left;
     margin-bottom: 100px;
-  }
+}
 
-  footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,24 +169,24 @@ p {
 }
 
 /*pour le smartphone*/
-@media screen and (max-width: 1070px){
+@media screen and (max-width: 1070px) {
 
     .head h1 {
         width: 1em;
     }
-      
+
     .bienvenue {
         font-size: 1.2em;
         margin-left: 0px;
         margin-top: 60px;
     }
 
-    .menu{
+    .menu {
         display: none;
-       }
-    
+    }
+
     .hamb {
-        background-color:#f0c97fff;
+        background-color: #f0c97fff;
         display: flex;
         justify-content: center;
         margin-top: -60px;
@@ -175,6 +194,6 @@ p {
         justify-content: flex-end;
         width: 60px;
     }
-    
-    
-    }
+
+
+}

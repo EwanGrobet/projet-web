@@ -1,41 +1,42 @@
-body{
+body {
   background-color: rgb(54, 54, 54);
   font-family: 'Raleway', sans-serif;
 }
 
 .ml3 {
   margin-top: auto;
-    font-weight: 400;
-    font-size: 3.5em;
-  }
+  font-weight: 400;
+  font-size: 3.5em;
+}
 
-  h1{
-      padding-top: 15%;
-      color: lightgray;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-      font-family: 'Raleway', sans-serif;
-  }
+h1 {
+  padding-top: 15%;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Raleway', sans-serif;
+}
 
-  p {
-    color: lightgray;
-    display: flex;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-  }
+p {
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
 
-  a{
-    text-decoration: none;
-    color: lightgrey;
-  }
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
 
-  a:hover {
-    color: black;
-  }
-  /*pour le smartphone*/
-@media screen and (max-width: 1070px){
+a:hover {
+  color: black;
+}
+
+/*pour le smartphone*/
+@media screen and (max-width: 1070px) {
 
   .ml3 {
     margin-top: 40%;

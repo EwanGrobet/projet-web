@@ -25,7 +25,7 @@ header {
     padding-left: 80px;
 }
 
-li{
+li {
     display: flex;
     justify-content: center;
 }
@@ -62,7 +62,7 @@ p {
     font-size: 1.3em;
 }
 
-h2{
+h2 {
     color: #e6dbe2ff;
 }
 
@@ -97,7 +97,7 @@ h2{
     margin-right: 100px;
 }
 
-.separate{
+.separate {
     background-color: #d8d8f6ff;
 }
 
@@ -127,18 +127,18 @@ footer {
 }
 
 /*pour le smartphone*/
-@media screen and (max-width: 1070px){
+@media screen and (max-width: 1070px) {
 
     .head h1 {
         width: 1em;
     }
 
-    .menu{
+    .menu {
         display: none;
-       }
-    
+    }
+
     .hamb {
-        background-color:#f0c97fff;
+        background-color: #f0c97fff;
         display: flex;
         justify-content: center;
         margin-top: -60px;
@@ -154,13 +154,13 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
     #actu {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
-    
+
     .ignotus {
         width: 80%;
         height: 80%;
@@ -170,6 +170,6 @@ footer {
         margin-right: 20px;
         margin-left: 20px;
     }
-    
-    
-    }
+
+
+}

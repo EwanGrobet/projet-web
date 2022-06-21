@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(54, 54, 54);
+  background-color: #161512ff;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 
 h1 {
   padding-top: 15%;
-  color: lightgray;
+  color: #e6dbe2ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-  color: lightgray;
+  color: #e6dbe2ff;
   display: flex;
   justify-content: center;
   font-family: 'Raleway', sans-serif;
@@ -28,11 +28,11 @@ p {
 
 a {
   text-decoration: none;
-  color: lightgrey;
+  color: #f0c97fff;
 }
 
 a:hover {
-  color: black;
+  color: #e6dbe2ff;
 }
 
 /*pour le smartphone*/

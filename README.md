@@ -15,13 +15,13 @@ Footer avec liens pour les réseaux sociaux
 
 Fonctionnalités JS:
 le Js servira à:
-Que le header suive le scroll de la page
-Un formulaire ou chaque utilisateur pourra proposer ses idées et/ou son opinion qui sera stockées sur un pages prévu à cet effet.
+Au animations présentes sur le site
+au localStorage
 
 Fonctionnalités Python:
 Les python servira à:
 Un formulaire ou chaque utilisateur pourra proposer ses idées et/ou son opinion qui sera stocké dans .txt
-un formulaire d’inscription
+
 
 
 

@@ -22,3 +22,12 @@ body {
 h1 {
     color: #d8d8f6ff;
 }
+
+a {
+    color: #d8d8f6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #161512ff;
+}

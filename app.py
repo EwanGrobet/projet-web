@@ -6,7 +6,7 @@ app = flask.Flask("fruits")
 def add_notes(comm_value):
     comm = comm_value
     file = open("avis.txt", "a")
-    file.write("----\n" + comm + "\n")
+    file.write("_________________________\n" + comm + "\n")
     file.close()
 
 #read the content with "read"

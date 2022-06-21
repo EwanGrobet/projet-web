@@ -1,14 +1,15 @@
 import flask
 app = flask.Flask("fruits")
 
-
-def add_notes(note_value):
-    note = note_value
+# adding the comment 
+# open the txt and add the user text with the "a"
+def add_notes(comm_value):
+    comm = comm_value
     file = open("avis.txt", "a")
-    file.write("----\n" + note + "\n")
+    file.write("----\n" + comm + "\n")
     file.close()
 
-
+#read the content with "read"
 def get_notes():
     notedb = open("avis.txt")
     content = notedb.read()
@@ -17,7 +18,7 @@ def get_notes():
     notes.pop(len(notes) - 1)
     return notes
 
-
+#setup all the page html for the app route
 def get_html(page_name):
     html_file = open(page_name + '.html')
     content = html_file.read()
@@ -29,37 +30,21 @@ def get_html(page_name):
 def homepage():
     return get_html("avis")
 
-
+#all the balise html with an option name/or id="q" are added to the txt
 @app.route("/add")
 def add():
-    note_value = flask.request.args.get("q")
-    add_notes(note_value)
+    comm_value = flask.request.args.get("q")
+    add_notes(comm_value)
     return get_html("avis")
 
 
 @app.route("/adding")
 def adding():
-    note_value = flask.request.args.get("jadoreca")
-    add_notes(note_value)
+    comm_value = flask.request.args.get("jadoreca")
+    add_notes(comm_value)
     return get_html("comm")
 
-
-@app.route("/search")
-def search():
-    html_page = get_html("user_search")
-    query = flask.request.args.get("search")
-    notes = get_notes()
-    result = ""
-
-    for note in notes:
-        if note.lower().find(query.lower()) != -1:
-            result += "<p>" + note + "</p>"
-
-    if result == "":
-        result = "<p>No results found</p>"
-    return html_page.replace("$$NOTES$$", result)
-
-
+#adding all the comments in a specifique place in the page comm
 @app.route("/comm")
 def notes():
     html_page = get_html("comm")
@@ -70,4 +55,5 @@ def notes():
 
     if result == "":
         result = "<p>No notes available</p>"
+        #replace the template $$COMM$$ with the avis.txt
     return html_page.replace("$$COMM$$", result)

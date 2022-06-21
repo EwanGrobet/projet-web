@@ -29,7 +29,7 @@ li {
     display: flex;
     justify-content: center;
 }
-
+/*class pour le dernier li du menu pour ne pas coller au bord de l'écran*/
 .lastli {
     padding-right: 20px;
 }

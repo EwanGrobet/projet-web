@@ -17,8 +17,8 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
-/*espacement entre chaque titre du menu*/
 
+/*espacement entre chaque titre du menu*/
 .head li {
     color: #d8d8f6ff;
     display: inline-flex;
@@ -37,7 +37,7 @@ li{
 .head ul {
     display: flex;
     justify-content: end;
-    margin-top: -35px;
+    margin-top: -40px;
 }
 
 a {
@@ -77,6 +77,15 @@ h2{
 #actu {
     display: flex;
     justify-content: space-around;
+}
+
+#comingSoon {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 0.8em;
+    margin-bottom: 20px;
 }
 
 .ignotus {
@@ -123,12 +132,6 @@ footer {
     .head h1 {
         width: 1em;
     }
-      
-    .bienvenue {
-        font-size: 1.2em;
-        margin-left: 0px;
-        margin-top: 60px;
-    }
 
     .menu{
         display: none;
@@ -142,6 +145,30 @@ footer {
         margin-left: 80%;
         justify-content: flex-end;
         width: 60px;
+    }
+
+    #description2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #actu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .ignotus {
+        width: 80%;
+        height: 80%;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
     

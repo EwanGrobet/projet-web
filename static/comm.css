@@ -1,0 +1,24 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-color: #161512ff;
+}
+
+.comm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #f0c97fff;
+}
+
+.super {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #d8d8f6ff;
+}

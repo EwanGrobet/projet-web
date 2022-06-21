@@ -1,4 +1,3 @@
-console.log("Coucou")
 // slide des photos d'exemples
 const photoEx = document.querySelector('.photoEx');
 

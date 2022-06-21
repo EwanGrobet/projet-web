@@ -17,8 +17,8 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
-/*espacement entre chaque titre du menu*/
 
+/*espacement entre chaque titre du menu*/
 .head li {
     color: #d8d8f6ff;
     display: inline-flex;
@@ -37,7 +37,7 @@ li{
 .head ul {
     display: flex;
     justify-content: end;
-    margin-top: -35px;
+    margin-top: -40px;
 }
 
 a {
@@ -64,6 +64,12 @@ p {
 
 h2{
     color: #e6dbe2ff;
+}
+
+h3 {
+    color: #e6dbe2ff;
+    display: flex;
+    justify-content: center;
 }
 
 #description {

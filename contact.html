@@ -31,26 +31,18 @@
         <h1>Une question ?</h1>
     </div>
     <div class="container">
-        <form action="action_page.php">
+        <form action="./php/contact.php" method="post">
       
-          <label for="fname">Prénom</label>
-          <input type="text" id="fname" name="firstname" placeholder="Ton prénom.../Your name..">
+          <label for="fname" class="email">email</label>
+          <input type="email" name="email" value=""placeholder="email">
       
-          <label for="lname">Nom</label>
-          <input type="text" id="lname" name="lastname" placeholder="Ton Nom.../Your last name..">
-      
-          <label for="country">Type de sujet</label>
-          <select id="country" name="country">
-            <option value="australia">Musiques</option>
-            <option value="canada">Art</option>
-            <option value="usa">Collaboration</option>
-            <option value="usa">Autres</option>
-          </select>
+          <label for="lname">Objet</label>
+          <input type="text" name="sujet" value="" placeholder="objet">
       
           <label for="subject">Sujet</label>
-          <textarea id="subject" name="subject" placeholder="Écrivez quelque chose.../Write something.." style="height:200px"></textarea>
+          <textarea id="subject" name="message" placeholder="Écrivez quelque chose.../Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input type="submit" value="Envoyer" name="Envoyer">
       
         </form>
       </div>

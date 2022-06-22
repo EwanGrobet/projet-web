@@ -1,0 +1,20 @@
+Use : importations des classes d'objets PHP mailer
+Require : Liens vers les fichiers phpmailer
+
+$inf = $_POST Récupération des valeurs envoyée depuis le formulaire
+
+$message : Définition du contenu du mail
+
+if : Vérification que tout les champs sont remplis
+
+$mail : Object PHPMailer
+
+
+
+
+Dans les spécifications du fichier contact.php,
+$mail->isSMTP() défini le protole. SMTP plutot que POP3 ou oAuth; d'autre systèmes d'authentifications
+$mail->username et $mail->password servent a s'authentifier au serveur mail distant. Infomaniak ne te laisse pas utiliser leur serveur mail en mode random sans être identifié
+
+$mail->setFrom doit avoir une adresse @wewfamily.ch pour fonctionner. C'est l'adresse qui t'envois le mail. Ici, on a mis noreply par défaut. On ne peut pas mettre l'adresse mail de l'envoyeur.
+$mail->subject et $mail->body parlent d'eux même. Le sujet et le contenu du message.

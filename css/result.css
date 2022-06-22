@@ -1,0 +1,11 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-color: #161512ff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #e6dbe2ff;
+}

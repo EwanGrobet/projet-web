@@ -5,7 +5,7 @@ let username = localStorage.getItem("username");
 if (username && username != "") {
   document.getElementById("welcomeBack").innerText = "Salut " + username + " Bonne exploration !";
 } else {
-  username = prompt("Hello ! What's your name ?");
+  username = prompt("Salut ! Qu'elle est ton nom ?");
   localStorage.setItem("username", username);
-  alert("Welcome " + username);
+  alert("Bienvenue " + username);
 }

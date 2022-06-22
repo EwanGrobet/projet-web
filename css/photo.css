@@ -91,6 +91,10 @@ p {
     padding: 20px;
 }
 
+.align {
+    color: #161512ff;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
